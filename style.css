@@ -1,8 +1,50 @@
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav img {
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.search-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-form {
+    width: 385px;
+    height: 26px;
+}
+.search-button {
+    width: 65px;
+    height: 32px;
+    background: url(img/search.png) no-repeat;
+    border: 1px #ccc;
+    background-size: 20px;
+    background-position: center;
+    background-color: #f8f8f8;
+    padding: 1px 6px;
+    border: 1px solid #808080;
+    border-left: 0;
+}
+
+nav .icon {
     width: 24px;
-    height 24px;
+    height: 24px;
+}
+
+.logo {
+    width: 80px;
+    flex: 0 0 80px;
+}
+
+.signin {
+    width: 108px;
+}
+
+img {
+    max-width: 100%;
 }
