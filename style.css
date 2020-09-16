@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 body {
     font-family: "Roboto", Arial, sans-serif;
+    color: #030303
 }
 img {
     max-width: 100%;
@@ -55,13 +56,14 @@ img {
 
 /* WRAPPER */
 .wrapper {
+    margin: auto;
+    max-width: 1754px;
     width: 100%;
     display: flex;
 }
 
 /* MAIN SECTION */
 .main-section {
-    background: #ccc;
     padding: 24px;
 }
 
@@ -72,10 +74,68 @@ img {
 
 /* VIDEO */
 .main-video {
-    height: 600px;
+    height: 700px;
 }
 
 .video {
     width: 100%;
     height: 100%;
+}
+.title-container{
+    padding: 20px 0px 8px;
+    border-bottom: 1px solid #dfe6e9;
+}
+.title-container h1{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0px;
+}
+.title-container div p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #606060;
+}
+
+
+
+.views_and_likes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.likes_and_share_icons{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.description-header{
+    display: flex;
+    justify-content:space-between;
+    padding: 16px 0 0 0;
+    margin: 0 0 12px;
+    align-items: center;
+}
+
+.authour{
+    display: flex;
+}
+.authour p{
+    margin-left: 16px;
+}
+.authour img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.button-subscribe{
+    padding: 10px 16px;
+    background-color: #d63031;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius:2px;
 }
