@@ -8,73 +8,77 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
+
+  <header class="header">
     <img class="logo" src="img/yt_logo_rgb_light.svg" alt="YouTube">
     <span class="search-item">
       <input type="text" placeholder="Search" class="search-form">
       <button type="submit" class="search-button"></button>
     </span>
     <div class="header-icons">
-      <img src="img/camera-icon.svg" alt="Video icon" class="icon icons-blocks">
-      <img src="img/squares.svg" alt="Block icon" class="icon icons-blocks">
+      <img src="img/camera-icon.svg" alt="Video icon" class="icon icon-camera">
+      <img src="img/squares.svg" alt="Block icon" class="icon icon-squares">
+      <img src="img/squares.svg" alt="Block icon" class="icon icon-squares">
       <img src="img/signin.png" alt="Signin" class="signin">
     </div>
-  </nav>
+  </header>
 
-  <section class="main-section">
+  <div class="wrapper">
+    <section class="main-section">
 
-
-    <div class="main-video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/0Wf9bRXUe8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <div class="title-container">
-      <div class="title">
-        <h1>What is Microverse?</h1>
-        <span>1,354 views・Feb 21, 2020</span>
+      <div class="main-video">
+        <iframe width="100%" height="100%" class="video" src="https://www.youtube.com/embed/0Wf9bRXUe8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-      <div class="likes_and_share_icons">
-        <span><img src="img/thumbs-up.svg" alt="Like Button">39</span>
-        <span><img src="img/thumbs-down.svg" alt="Dislike Button">0</span>
-        <span class="share-text"><img src="img/arrow.svg" alt="Share Button">SHARE</span>
-        <span class="share-text"><img src="img/add.svg" alt="Save Button">SAVE</span>
-      </div>
-    </div>
 
-    <div class="description">
-
-      <header class="description-header">
-        <div class="authour">
-          <img src="img/microverse.jpg" alt="Microverse">
-          <p>Microverse</p>
+      <div class="title-container">
+        <div class="title">
+          <h1>What is Microverse?</h1>
+          <span>1,354 views・Feb 21, 2020</span>
         </div>
-        <button class="btn red">SUBSCRIBE</button>
-      </header>
-
-      <div class="description-text">
-        Microverse is an online school for remote software developers where you pay nothing until you land a life-changing job, no matter where you live.<br><br>
-
-        At Microverse, there are no classes or physical classrooms. Instead, students learn through a very unique approach — by remote pair programming and collaborating with other students in real-time, just as you would with colleagues in a real company.<br><br>
-
-        This innovative and unique approach provides students with an accountability partner and a large, global network of support. It also helps you learn remote workflows and acquire the collaboration and communication skills necessary to join a global company.<br><br>
-
-        Once students are done with the technical curriculum, we help improve their portfolio, resume and online presence, and get ready for job interviews. Then we help you find and apply to competitive jobs around the world and negotiate job offers.<br><br>
-
-        We have full-time students in 90+ countries and graduates from Uganda to Mexico that have increased their salaries by 2-10x after completing the program.<br><br>
-
-        Learn more and start the application process.
-      </div>
-    </div>
-
-    <div class="comments">
-      <h2>2 Comments</h2>
-      <img src="" alt="profile Image">
-      <div class="comment_from">
-        <p>Add a public comment...</p>
+        <div class="likes_and_share_icons">
+          <span><img src="img/thumbs-up.svg" alt="Like Button" class="icon">39</span>
+          <span><img src="img/thumbs-down.svg" alt="Dislike Button" class="icon">0</span>
+          <span class="share-text"><img src="img/arrow.svg" alt="Share Button" class="icon">SHARE</span>
+          <span class="share-text"><img src="img/add.svg" alt="Save Button" class="icon">SAVE</span>
+        </div>
       </div>
 
-    </div>
-    <aside class="sidebar">
+      <div class="description">
+
+        <header class="description-header">
+          <div class="authour">
+            <img src="img/microverse.jpg" alt="Microverse">
+            <p>Microverse</p>
+          </div>
+          <button class="btn red">SUBSCRIBE</button>
+        </header>
+
+        <div class="description-text">
+          Microverse is an online school for remote software developers where you pay nothing until you land a life-changing job, no matter where you live.<br><br>
+
+          At Microverse, there are no classes or physical classrooms. Instead, students learn through a very unique approach — by remote pair programming and collaborating with other students in real-time, just as you would with colleagues in a real company.<br><br>
+
+          This innovative and unique approach provides students with an accountability partner and a large, global network of support. It also helps you learn remote workflows and acquire the collaboration and communication skills necessary to join a global company.<br><br>
+
+          Once students are done with the technical curriculum, we help improve their portfolio, resume and online presence, and get ready for job interviews. Then we help you find and apply to competitive jobs around the world and negotiate job offers.<br><br>
+
+          We have full-time students in 90+ countries and graduates from Uganda to Mexico that have increased their salaries by 2-10x after completing the program.<br><br>
+
+          Learn more and start the application process.
+        </div>
+      </div>
+
+      <div class="comments">
+        <h2>2 Comments</h2>
+        <img src="" alt="profile Image">
+        <div class="comment_from">
+          <p>Add a public comment...</p>
+        </div>
+
+      </div>
+    </section>
+
+    <aside class="recommendation">
       <div class="thumbnail">
         <div>
           <img src="img/maxresdefault.jpg" alt="video thumbnail">
@@ -86,8 +90,7 @@
         </div>
       </div>
     </aside>
-  </section>
-
+  </div>
 
 </body>
 </html>

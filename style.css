@@ -1,14 +1,30 @@
-nav {
+/* COMMON */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+body {
+    font-family: "Roboto", Arial, sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+}
+
+/* HEADER */
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 16px;
 }
-
 .header-icons {
+    width: 260px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-
 .search-item {
     display: flex;
     justify-content: center;
@@ -30,21 +46,36 @@ nav {
     border: 1px solid #808080;
     border-left: 0;
 }
-
-nav .icon {
-    width: 24px;
-    height: 24px;
-}
-
 .logo {
-    width: 80px;
-    flex: 0 0 80px;
+    width: 120px;
 }
-
 .signin {
     width: 108px;
 }
 
-img {
-    max-width: 100%;
+/* WRAPPER */
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+/* MAIN SECTION */
+.main-section {
+    background: #ccc;
+    padding: 24px;
+}
+
+.recommendation {
+    background: pink;
+    width: 600px;
+}
+
+/* VIDEO */
+.main-video {
+    height: 600px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
 }
