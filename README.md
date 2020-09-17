@@ -6,7 +6,6 @@
 
 ![screenshot](./Project_Screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
@@ -20,29 +19,12 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+**User has to clone the repository and run index.html file using any web browser*
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Yoko Saka**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -50,9 +32,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/smcommits)
+
 
 ## 🤝 Contributing
 
@@ -66,9 +47,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Icons are downloaded from Youtube's original page.
+- Fonts are imported from Google Fonts.
+
 
 ## 📝 License
 
