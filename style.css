@@ -92,7 +92,7 @@ body {
     padding: 20px 0px 8px;
     border-bottom: var(--border-bottom);
 }
-#title-container h1 {
+#title-container h2 {
     font-weight: 400;
     font-size: 18px;
     margin: 0px;
