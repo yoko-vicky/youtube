@@ -26,9 +26,8 @@
 
 👤 **Yoko Saka**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@yocosaka](https://github.com/yocosaka)
+- Twitter: [@yocosaka](https://twitter.com/yocosaka)
 
 👤 **Anas Siddiqui**
 
