@@ -1,59 +1,76 @@
-Youtube Video Page Clone
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-   This project is clone of youtube videplayer's page designed in HTML & CSS.
+# Youtube clone
 
-![Image of Project]
-(https://github.com/yocosaka/youtube/blob/video-player-page/Project_Screenshot.png)
+> This project contains a clone website of youtube's video player page.
+
+![screenshot](./Project_Screenshot.png)
 
 Additional description about the project and its features.
-Built With
 
-    Major languages
-    Frameworks
-    Technologies used
+## Built With
 
-Live Demo
+- Major languages
+- Frameworks
+- Technologies used
 
-Live Demo Link
-Getting Started
+## Live Demo
 
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+[Live Demo Link](https://livedemo.com)
+
+
+## Getting Started
+
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
 
 To get a local copy up and running follow these simple example steps.
-Prerequisites
-Setup
-Install
-Usage
-Run tests
-Deployment
-Authors
 
-bust_in_silhouette Author1
+### Prerequisites
 
-    GitHub: @githubhandle
-    Twitter: @twitterhandle
-    LinkedIn: LinkedIn
+### Setup
 
-bust_in_silhouette Author2
+### Install
 
-    GitHub: @githubhandle
-    Twitter: @twitterhandle
-    LinkedIn: LinkedIn
+### Usage
 
-handshake Contributing
+### Run tests
+
+### Deployment
+
+
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
-Show your support
+Feel free to check the [issues page](issues/).
 
-Give a star if you like this project!
-Acknowledgments
+## Show your support
 
-    Hat tip to anyone whose code was used
-    Inspiration
-    etc
+Give a ⭐️ if you like this project!
 
-memo License
+## Acknowledgments
 
-This project is MIT licensed.
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
