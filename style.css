@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+/* COLOR VALIABLES */
+:root {
+    --black: #030303;
+    --dark-grey: #606060;
+    --light-grey: #f8f8f8;
+    --border-bottom: 1px solid #dfe6e9;
+}
+
+/* GENERAL */
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    color: var(--black);
+    font-weight: 400;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+}
+
+/* HEADER */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+#header-icons {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#search-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-form {
+    width: 566px;
+    height: 26px;
+    border: 1px solid rgb(195, 195, 195);
+    padding: 1px 0 1px 14px;
+    border-right: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#search-button {
+    width: 65px;
+    height: 30px;
+    background: url(img/search.png) no-repeat;
+    background-size: 20px;
+    background-position: center;
+    background-color: var(--light-grey);
+    padding: 1px 6px;
+    border: 1px solid rgb(195, 195, 195);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#logo {
+    width: 120px;
+}
+#signin {
+    width: 108px;
+}
+
+/* WRAPPER FOR VIDEO AND SIDEBAR */
+#wrapper {
+    margin: 0 auto;
+    max-width: 1754px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(195, 195, 195, 0.1);
+    padding-bottom: 40px;
+}
+
+/* MAIN SECTION VIDEO & COMMENTS*/
+#main-section {
+    padding: 24px;
+    flex: 1;
+}
+
+/* VIDEO */
+#video {
+    width: 100%;
+    border: none;
+}
+#title-container {
+    padding: 20px 0px 8px;
+    border-bottom: var(--border-bottom);
+}
+#title-container h2 {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0px;
+}
+.title-container p {
+    font-size: 14px;
+    color: var(--dark-grey);
+}
+
+#views-and-likes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#likes-and-share-icons {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+#description {
+    padding-bottom: 20px;
+    border-bottom: var(--border-bottom);
+    margin-bottom: 24px;
+}
+
+#description-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0 0 0;
+    margin: 0 0 12px;
+    align-items: center;
+}
+
+#description-text {
+    font-size: 14px;
+    margin: 0 20px 30px 64px;
+    display: block;
+
+}
+#show-more {
+    margin: 8px 0 0 64px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--dark-grey);
+}
+
+#authour {
+    display: flex;
+}
+#authour p {
+    margin-left: 16px;
+}
+#authour img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+#button-subscribe {
+    padding: 10px 16px;
+    background-color: #d63031;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+/* COMMENTS */
+#comments h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#comment {
+    display: flex;
+    align-items: center;
+}
+
+#comment-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#comment-from {
+    width: 100%;
+    font-size: 14px;
+    color: var(--dark-grey);
+}
+
+#comment p {
+    border-bottom: var(--border-bottom);
+    padding: 0 0 4px 0;
+    margin: 0;
+}
+
+
+
+/* RECOMMENDATION */
+#recommendation {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 426px;
+    padding: 24px 24px 0 0;
+}
+#up-next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#up-next p {
+    margin: 0;
+}
+
+#autoplay {
+    display: flex;
+    align-items: center;
+}
+
+#autoplay img {
+    width: 36px;
+}
+#autoplay p {
+    margin-right: 10px;
+}
+.thumbnail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.thumbnail .text {
+    flex: 0 0 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.thumbnail .text h4,
+.thumbnail .text p {
+    margin: 0 0 4px 6px;
+}
+
+.thumbnail .text h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.thumbnail .text p {
+    font-size: 13px;
+    color: var(--dark-grey);
+}
+
+.thumbnail img {
+    width: 168px;
+    height: 94px;
+}
+
+.thumbnail-upnext {
+    border-bottom: var(--border-bottom);
+    padding-bottom: 16px;
+}
