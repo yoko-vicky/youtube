@@ -30,9 +30,9 @@
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 **Anas Siddiqui**
 
-- GitHub: [@githubhandle](https://github.com/smcommits)
+- GitHub: [Anas Siddiqui](https://github.com/smcommits)
 
 
 ## 🤝 Contributing
