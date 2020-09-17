@@ -22,24 +22,24 @@ body {
 }
 
 /* HEADER */
-.header {
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 16px;
 }
-.header-icons {
+#header-icons {
     width: 260px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.search-item {
+#search-item {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.search-form {
+#search-form {
     width: 566px;
     height: 26px;
     border: 1px solid rgb(195, 195, 195);
@@ -48,7 +48,7 @@ body {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
-.search-button {
+#search-button {
     width: 65px;
     height: 30px;
     background: url(img/search.png) no-repeat;
@@ -60,15 +60,15 @@ body {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
-.logo {
+#logo {
     width: 120px;
 }
-.signin {
+#signin {
     width: 108px;
 }
 
 /* WRAPPER FOR VIDEO AND SIDEBAR */
-.wrapper {
+#wrapper {
     margin: 0 auto;
     max-width: 1754px;
     width: 100%;
@@ -78,49 +78,49 @@ body {
 }
 
 /* MAIN SECTION VIDEO & COMMENTS*/
-.main-section {
+#main-section {
     padding: 24px;
     flex: 1;
 }
 
 /* VIDEO */
-.video {
+#video {
     width: 100%;
     border: none;
 }
-.title-container {
+#title-container {
     padding: 20px 0px 8px;
     border-bottom: var(--border-bottom);
 }
-.title-container h1 {
+#title-container h1 {
     font-weight: 400;
     font-size: 18px;
     margin: 0px;
 }
-.title-container div p {
+.title-container p {
     font-size: 14px;
     color: var(--dark-grey);
 }
 
-.views-and-likes {
+#views-and-likes {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.likes-and-share-icons {
+#likes-and-share-icons {
     display: flex;
     align-items: center;
     padding: 8px;
 }
 
-.description {
+#description {
     padding-bottom: 20px;
     border-bottom: var(--border-bottom);
     margin-bottom: 24px;
 }
 
-.description-header {
+#description-title {
     display: flex;
     justify-content: space-between;
     padding: 16px 0 0 0;
@@ -128,11 +128,13 @@ body {
     align-items: center;
 }
 
-.description-text {
+#description-text {
     font-size: 14px;
     margin: 0 20px 30px 64px;
+    display: block;
+
 }
-.show-more {
+#show-more {
     margin: 8px 0 0 64px;
     font-size: 13px;
     font-weight: 500;
@@ -140,19 +142,19 @@ body {
     color: var(--dark-grey);
 }
 
-.authour {
+#authour {
     display: flex;
 }
-.authour p {
+#authour p {
     margin-left: 16px;
 }
-.authour img {
+#authour img {
     width: 48px;
     height: 48px;
     border-radius: 50%;
 }
 
-.button-subscribe {
+#button-subscribe {
     padding: 10px 16px;
     background-color: #d63031;
     border: none;
@@ -162,65 +164,65 @@ body {
 }
 
 /* COMMENTS */
-.comments h2 {
+#comments h2 {
     font-size: 16px;
     font-weight: 400;
 }
 
-.comment {
+#comment {
     display: flex;
     align-items: center;
 }
 
-.comment-avater {
+#comment-avatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 20px;
 }
 
-.comment-from {
+#comment-from {
     width: 100%;
     font-size: 14px;
     color: var(--dark-grey);
 }
 
-.comment p {
+#comment p {
     border-bottom: var(--border-bottom);
     padding: 0 0 4px 0;
     margin: 0;
 }
 
-.up-next {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.up-next p {
-    margin: 0;
-}
-
-.autoplay {
-    display: flex;
-    align-items: center;
-}
-
-.autoplay img {
-    width: 36px;
-}
-.autoplay p {
-    margin-right: 10px;
-}
 
 /* RECOMMENDATION */
-.recommendation {
+#recommendation {
     display: flex;
     flex-direction: column;
     flex: 0 0 426px;
     padding: 24px 24px 0 0;
 }
+#up-next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#up-next p {
+    margin: 0;
+}
+
+#autoplay {
+    display: flex;
+    align-items: center;
+}
+
+#autoplay img {
+    width: 36px;
+}
+#autoplay p {
+    margin-right: 10px;
+}
 .thumbnail {
     display: flex;
     justify-content: space-between;
